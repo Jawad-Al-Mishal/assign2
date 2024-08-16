@@ -1,0 +1,694 @@
+
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body{
+      width: 90%;
+      min-height: 600px;
+      margin: 0 auto;
+      /* border: solid red; */
+     
+       background-color: rgb(49, 45, 45);  
+  }
+  /* navigation */
+  header{
+      background-image: linear-gradient(180.00deg, rgba(13, 12, 12, 0.919),rgba(19, 17, 17, 0.864) 100%);
+  }
+  
+  
+  nav{
+      display: flex;
+      background-image: linear-gradient(180.00deg, rgba(13, 12, 12, 0.919),rgba(19, 17, 17, 0.864) 100%);
+      justify-content: space-around;
+      
+  
+  }
+  
+  
+  .icon{
+     font-size: 2.8rem;
+     cursor: pointer;
+     display: none;
+  }
+  
+  nav,ul,li{
+  list-style: none;
+   color:rgb(255, 255, 255)
+   /* border: 2px solid wheat;  */
+  
+  
+  }
+  .lihome{
+      border-radius: 20px;
+      width: 62px;
+      height: 20px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding: 7px;
+      
+      background-color: rgb(230, 83, 60);
+     
+  }
+  .btn{
+      width: 70px;
+      height: 30px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding-top: 5px; 
+  }
+  
+  
+  
+  nav,ul{
+      margin-top: 40px;
+      display: flex;
+      gap: 30px;
+      border: 1% solid 1px
+      rgba(255, 255, 255, 0.1);
+  }
+  h2{
+      margin-top: 20px;
+      color: rgb(230, 83, 60);
+      font-size: larger;
+      /* border: 2px solid yellow; */
+     
+  font-size: 36px;
+  font-weight: 800;
+  
+      
+  }
+  @media screen and (max-width: 580px){
+      .media{
+          height: 100px;
+          width: 90%;
+          margin: 0 auto;
+      }
+      .icon{
+          display: block;
+          position: absolute;
+          right: 20px;
+          top: 3px;
+      }
+      .heavy{
+          position: absolute;
+          left: 20px;
+          top: 0.04px;
+      }
+      .navy{
+          position: relative;
+      }
+      ul{
+          display: none;
+      }
+  }
+  
+  
+  
+  
+  /* banner */
+  .container{
+    width: 100%;
+    background-image:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 118, 120) 100%);
+    display: flex;
+    justify-content: space-around;
+  /* height: 600px; */
+  
+  
+  }
+  .banner1{
+      width: 40%;
+      /* border: solid black; */
+      padding-left: 20px;
+      padding-top: 90px;
+      margin-left: 30px;
+  
+  }
+  .head{
+      font-size: 78px;
+  font-weight: 900;
+  color: rgb(255, 255, 255)
+  
+  }
+  
+  .para{
+    color:  rgba(255, 255, 255, 0.5);
+  }
+  
+  .design{
+      
+     
+      
+  }
+  
+  
+  .bnr-but{
+  
+  }
+  .transparent{
+      font-size: 40px;
+      font-weight: 900;
+      color: azure;
+  }
+  
+  
+  /* shared buttons */
+  
+  .btn1,.massagebtn{
+      width: 220px;
+  height: 54px;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: rgb(230, 83, 60);
+  font-size: 18px;
+  font-weight: 600;
+  color: whitesmoke;
+  border: none;
+  margin-top: 20px;
+  }
+  .btn2{
+      margin-top: 20px;
+      width: 220px;
+  height: 54px;
+  justify-content: center;
+  border-radius: 30px;
+  border: solid 2px whitesmoke;
+  color: whitesmoke;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 600;
+  
+  
+  }
+  .banner2{
+      width: 40%;
+      /* border: solid black; */
+    margin-top: 20px;
+  
+  }
+  .absulate1{
+      width: 180px;
+  height: 88px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  
+  top: 130px;
+  left: 240px;
+  position: absolute;
+  padding-left: 10px;
+  
+  
+  }
+   .absulate2{
+      width: 180px;
+  height: 88px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  bottom: 18%;
+  left: -10%;
+  display: flex;
+  
+  
+  } 
+  .lal{
+      border-radius: 50%; 
+      background-color: rgb(230, 83, 60);
+      width: 20%;
+      height: 40%;
+      margin-top: 25px;
+      margin-right: 5px;
+      margin-left: 5px;
+      border: none;
+  }
+  .relative{
+      position: relative;
+  }
+  /* responsive viewport */
+  @media screen and (max-width: 580px) {
+     
+       nav{
+          display: flex;
+          flex-direction: column
+          ; 
+          align-items: center;
+          justify-content: center;
+      }
+      .bnr but{
+          display: flex;
+          flex-direction: row;
+      }
+      .container{
+          display: flex;
+          flex-direction: column
+                       ; 
+                       padding: 20px;
+          
+          /* border: 2px solid blue; */
+     
+      }
+      .banner1{
+          width: 100%;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+      }
+      .head{
+          width: 80%;
+         
+         margin-right: 10px;
+         padding-right: 10px;
+         border: 2px solid wheat;
+      }
+      .para{
+          padding: 20px;
+      }
+      .btn2{
+          margin-top: 10px;
+      }
+    
+      
+  }
+  
+  
+  
+  
+  
+  /* first card section */
+  main{
+      background-color:  rgb(0, 0, 0);
+  }
+  .fstcard{
+     text-align: center;
+     justify-content: center;
+     background-color:   rgb(0, 0, 0);
+  
+  }
+  .fstcard,p{
+      color: rgba(255, 255, 255, 0.5);
+  }
+  .fstcard,h1,h4{
+      color: whitesmoke;
+  }
+  
+  
+  
+  .gridbox{
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px;
+      justify-content: center;
+      gap: 20px;
+      /* border: 2px solid green; */
+  
+  }
+  .crdimg{
+      border-radius: 50%;
+  }
+  @media screen and (max-width: 580px){
+      .fstcard{
+          display: flex;
+          flex-direction: column;
+      }
+      .gridbox{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+  
+          
+      }
+      .crd{
+          padding: 10px;
+      }
+  
+  
+  
+  }
+  /* massage section 
+  */
+  
+  .massage{
+      display: flex;
+      width: 65%;
+      margin: 0 auto;
+      border-radius: 18px;
+      justify-content: space-between;
+  
+      background-color:  rgb(20, 19, 19);
+  padding: 20px;
+  margin-top: 20px;
+  
+  }
+  .massageone{
+      padding: 0px 20px 20px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  }
+  
+  /* shared headings */
+  
+  .sharedheading{
+      font-size: 40px;
+      font-weight: 900;
+      /* border: 1px solid white; */
+  }
+  
+  .massagetwo{
+    
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-right: 20px;
+   
+  }
+  .runimg{
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+  }
+  @media screen and (max-width: 580px){
+      .massage{
+          display: flex;
+          flex-direction: column;
+          /* text-align: center;
+          justify-content: center; */
+      }
+      .massageone{
+          display: flex;
+          flex-direction: column;
+          
+          justify-content: center    
+      }
+      .massageone,p,h1{
+         padding-left: 40px;
+      }
+      .massagetwo{
+          margin-left: 10px;
+      }
+  }
+  
+  
+  
+  /* table bmi */
+  .bmipart{
+      /* border: 2px solid wheat; */
+      
+      align-items: center;
+      text-align: center;
+  }
+  .bmiheading{
+      font-size: 40px;
+      font-weight: 700;
+      color: white;
+  
+  }
+  
+  
+  .bmibox{
+      width: 100%;
+      
+      /* border: 2px solid wheat ; */
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      background-color: rgb(34, 34, 34);
+      
+  }
+  
+  .box1{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      
+      /* border: 2px solid white; */
+     text-align: start;
+     justify-content: center;
+     padding: 20px;
+  
+  }
+  .box2{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: right;
+      width: 50%;
+      padding-top: 20px;
+      padding-left: 20px;
+      
+    
+      
+  }
+  .gridinput{
+      justify-content: center;
+      /* border: 2px solid white; */
+  
+      display: grid;
+      grid-template-columns: repeat(2,3fr);
+      gap: 5px;
+      margin-bottom: 5px;
+      align-items: start;
+  }
+  
+  .span{
+      grid-column: span 2;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: 
+      rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      border: none;
+      height: 30px;
+      
+  }
+  .gridboxes{
+      background-color: rgba(255, 255, 255, 0.1);
+      color:   rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      border: none;
+      height: 30px;
+      
+    
+      
+    
+      
+  
+      
+  }
+  
+  
+  .box1,h2{
+      color: white;
+  }
+  
+  
+  table,td{
+      color:rgba(255, 255, 255, 0.5);
+     border-collapse: collapse;
+  }
+  td{
+      border: 1px solid 
+      rgba(255, 255, 255, 0.13);
+      padding: 10px;
+  }
+  .bmi{
+      font-size: 16px;
+  font-weight: 500;
+  }
+  
+  
+  @media screen and (max-width: 580px) {
+      .bmipart{
+          display: flex;
+          flex-direction: column;
+      }
+      .bmibox{
+          display: flex;
+          flex-direction: column;  
+      }
+      .box1{
+          width: 90%;
+          
+      }
+      .box1,p{
+          margin-right: 20px;
+      }
+      .box2 {
+          width: 100%;
+         
+        
+      }
+     
+      .gridinput{
+          margin-bottom: 10px;
+      }
+      .bmiparagraph{
+  
+          padding: 20px;
+      
+         
+      }
+      
+  }
+  
+  /* team box selection */
+  
+  .teamsection{
+     text-align: center;
+     width: 100%;
+     padding-bottom: 25px;
+  }
+  
+  .team{
+      display: grid;
+      grid-template-columns: repeat(3,2fr);
+      
+      padding: 60px;
+     
+    
+      width: 60%;
+      height: 400px;
+       /* border: 2px solid red;  */
+      margin: 0 auto;
+      /* position: relative; */
+     background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      text-align: center;
+      column-gap: 5px;
+      gap: 20px;
+      
+    
+  }
+  
+  
+  
+  
+  .teambox{
+      position: relative;
+      /* border: 2px solid yellow; */
+      height: 200px;
+      width: 200px;
+      margin: 0 auto;
+      
+      
+     
+  }
+  
+  .photo{
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+      position: relative;
+      
+      
+  }
+  .teambox,h1,p{
+     
+    
+  }
+  
+  .trainer{
+      position: absolute;
+      bottom: 0px;
+   
+  }
+  
+  @media screen and (max-width: 580px) {
+      .team{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          padding-right: 40px;
+          height: 1400px;
+  
+      }
+      
+      
+  }
+  /* footer section */
+  .footer{
+      width: 100%;
+     /* background-color: rgba(255, 255, 255, 0.1); */
+     background-color: rgba(255, 255, 255, 0.1);
+    
+  }
+  .footheading{
+      color: rgb(230, 83, 60);
+      font-size: larger;
+      /* border: 2px solid yellow; */
+     
+  font-size: 36px;
+  font-weight: 800;
+  
+  }
+  
+  
+  
+  .footbox{
+      width: 75%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      /* border: 2px solid rebeccapurple; */
+      padding: 30px;
+  }
+  .foot1{
+      width: 30%;
+  
+  }
+  .foot{
+      width: 25%;
+      padding-top: 20px;
+  }
+  .foot,h3{
+      color: white;
+      
+  }
+  .foot,h6{
+      color: rgba(255, 255, 255, 0.5);
+  }
+  
+  
+  .footparag{
+      color: rgba(255, 255, 255, 0.5);
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+     
+  }
+  @media screen and (max-width: 580px){
+  
+  
+      .footer{
+          display: flex;
+          flex-direction: column;
+      }
+      .footbox{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+  }
+  
+  
+  
